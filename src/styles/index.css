@@ -21,6 +21,8 @@ a {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     padding: 0 50px;
     max-width: 1440px;
     width: 100%;

@@ -71,5 +71,5 @@ const AccordionContainer = styled.div`
 `;
 
 const Accordions = styled.div`
-    margin-bottom: 150px;
+    margin-bottom: 152px;
 `;
