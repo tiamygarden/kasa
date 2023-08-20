@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo_footer.png";
 import styled from "styled-components";
 
-function footer() {
+export default function footer() {
     return (
         <Footer>
             <img src={logo} alt="logo" />
@@ -35,5 +35,3 @@ const Footer = styled.div`
         font-size: 1.5rem;
     }
 `;
-
-export default footer;

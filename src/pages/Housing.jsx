@@ -6,7 +6,7 @@ import Error404 from "../pages/Error404";
 import styled from "styled-components";
 import data from "../datas/data.json";
 
-function Housing() {
+export default function Housing() {
     let { id } = useParams();
 
     const housingData = data.filter((data) => data.id === id);
@@ -42,5 +42,3 @@ function Housing() {
 const MainStyle = styled.main`
     margin-bottom: 100px;
 `;
-
-export default Housing;

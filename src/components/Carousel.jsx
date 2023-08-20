@@ -5,7 +5,7 @@ import leftArrow from "../assets/chevron-left.png";
 import rightArrow from "../assets/chevron-right.png";
 import data from "../datas/data.json";
 
-function Carousel() {
+export default function Carousel() {
     const [current, setCurrent] = useState(0);
 
     const urlParams = useParams();
@@ -141,5 +141,3 @@ const CarouselContainer = styled.div`
       }
     }
 `;
-
-export default Carousel;

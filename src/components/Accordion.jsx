@@ -1,10 +1,9 @@
 import React from "react";
 import upArrow from "../assets/chevron-up.png";
 import downArrow from "../assets/chevron-down.png";
-
 import styled from "styled-components";
 
-function Accordion({ title, active, setActive, text, police }) {
+export default function Accordion({ title, active, setActive, text, police }) {
     return (
         <AccordionStyle className="accordion">
             <div className="accordingHeading">
@@ -112,5 +111,3 @@ const AccordionStyle = styled.div`
         opacity: 1;
     }
 `;
-
-export default Accordion;

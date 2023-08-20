@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-function Card({ title, id, cover }) {
+export default function Card({ title, id, cover }) {
     return (
         <NavLink to={`housing/${id}`}>
             <GalleryImageStyle>
@@ -85,5 +85,3 @@ const GalleryImageStyle = styled.div`
         height: 100%;
     }
 `;
-
-export default Card;

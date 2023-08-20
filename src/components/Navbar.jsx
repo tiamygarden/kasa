@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../assets/logo.png";
 
-function Navbar() {
+export default function Navbar() {
     const navLinkStyles = ({ isActive }) => {
         return {
             textDecoration: isActive ? "underline" : "none",
@@ -79,5 +79,3 @@ const NavStyle = styled.nav`
         }
     }
 `;
-
-export default Navbar;

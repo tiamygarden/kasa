@@ -5,7 +5,7 @@ import Section from "../components/Section";
 import Accordion from "../components/Accordion";
 import bannerAboutImage from "../assets/IMG_headerBannerAbout.jpg";
 
-function About() {
+export default function About() {
     const [active, setActive] = useState("");
     const AboutData = [
         {
@@ -73,5 +73,3 @@ const AccordionContainer = styled.div`
 const Accordions = styled.div`
     margin-bottom: 150px;
 `;
-
-export default About;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Section({ text, classname }) {
+export default function Section({ text, classname }) {
     return (
         <SectionStyle className={classname}>
             <h1>{text}</h1>
@@ -55,5 +55,3 @@ const SectionStyle = styled.div`
         }
     }
 `;
-
-export default Section;

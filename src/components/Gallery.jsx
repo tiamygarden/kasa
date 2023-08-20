@@ -3,7 +3,7 @@ import Card from "./Card";
 import styled from "styled-components";
 import data from "../datas/data.json";
 
-function Gallery() {
+export default function Gallery() {
     return (
         <GallerySectionStyle>
             {data &&
@@ -29,5 +29,3 @@ const GallerySectionStyle = styled.div`
     margin-bottom: 50px;
     min-height: 200vh;
 `;
-
-export default Gallery;

@@ -7,7 +7,7 @@ import Accordion from "./Accordion";
 import data from "../datas/data.json";
 import { useParams, Navigate } from "react-router-dom";
 
-function HousingDetails() {
+export default function HousingDetails() {
     const [active, setActive] = useState("");
 
     const urlParams = useParams();
@@ -175,5 +175,3 @@ const Accordions = styled.div`
         }
     }
 `;
-
-export default HousingDetails;

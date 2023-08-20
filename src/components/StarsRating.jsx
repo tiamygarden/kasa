@@ -5,7 +5,7 @@ import fullStar from "../assets/full-star.png";
 import emptyStar from "../assets/empty-star.png";
 import data from "../datas/data.json";
 
-function StarsRating({ sellerName, sellerImage }) {
+export default function StarsRating({ sellerName, sellerImage }) {
     const urlParams = useParams();
 
     const housingData = data.filter((data) => data.id === urlParams.id);
@@ -115,4 +115,3 @@ const Stars = styled.div`
         }
     }
 `;
-export default StarsRating;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Tags({ tagTitle }) {
+export default function Tags({ tagTitle }) {
     return (
         <TagStyle>
             <p>{tagTitle}</p>
@@ -34,5 +34,3 @@ const TagStyle = styled.div`
         }
     }
 `;
-
-export default Tags;
